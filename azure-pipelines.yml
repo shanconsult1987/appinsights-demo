@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: local-agent-pool
+  name: local-agent-pool
 
 steps:
 
