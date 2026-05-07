@@ -30,6 +30,6 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'YOUR-SERVICE-CONNECTION'
-    appName: 'YOUR-APP-SERVICE'
+    azureSubscription: 'insights'
+    appName: 'appinsights090767'
     package: $(Build.ArtifactStagingDirectory)/app.zip
